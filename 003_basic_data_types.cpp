@@ -28,7 +28,7 @@ int main()
     //Taking inputs from user
     cin >> i >> l >> ch >> f >> d;
     
-    
+    // Printing Output 
     cout << i << endl;
     cout << l << endl;
     cout << ch << endl;
