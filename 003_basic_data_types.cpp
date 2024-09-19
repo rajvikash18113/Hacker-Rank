@@ -18,12 +18,14 @@ using namespace std;
 
 int main()
 {
+    // Declaring Variables 
     int i;
     long l;
     char ch;
     float f;
     double d;
 
+    //Taking inputs from user
     cin >> i >> l >> ch >> f >> d;
     
     
