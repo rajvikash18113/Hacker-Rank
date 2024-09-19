@@ -12,6 +12,6 @@ int main()
     cin >> a >> b >> c; // Taking input from user
 
     int sum = a + b + c;
-    cout << sum;
+    cout << sum; // Printing Output 
     return 0;
 }
