@@ -18,19 +18,21 @@ using namespace std;
 
 int main()
 {
+    // Declaring Variables 
     int i;
     long l;
     char ch;
     float f;
     double d;
 
+    //Taking inputs from user
     cin >> i >> l >> ch >> f >> d;
     
-    
+    // Printing Output 
     cout << i << endl;
     cout << l << endl;
     cout << ch << endl;
-    cout << fixed << setprecision(3) << f << endl;
+    cout << fixed << setprecision(3) << f << endl; // fixed is used to print fixed number value 
     cout << fixed << setprecision(9) << d << endl;
 }
 
