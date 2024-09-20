@@ -32,7 +32,7 @@ int main()
     cout << i << endl;
     cout << l << endl;
     cout << ch << endl;
-    cout << fixed << setprecision(3) << f << endl;
+    cout << fixed << setprecision(3) << f << endl; // it is used to print fixed number value 
     cout << fixed << setprecision(9) << d << endl;
 }
 
