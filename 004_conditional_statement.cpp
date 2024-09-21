@@ -45,7 +45,7 @@ int main()
             break;
         }
     }
-    else
+    else  // if n is greater than 9 them execute this loop
 
     {
         cout << "Greater than 9";
