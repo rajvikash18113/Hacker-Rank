@@ -25,11 +25,11 @@ int max_of_four_num(int a, int b, int c, int d)
 
 int main()
 {
-    int a, b, c, d;
-    cin >> a;
-    cin >> b;
-    cin >> c;
-    cin >> d;
-    int result = max_of_four_num(a, b, c, d);
+    int w, x, y, z;
+    cin >> w;
+    cin >> x;
+    cin >> y;
+    cin >> z;
+    int result = max_of_four_num(w,x,y,z);
     cout << result;
 }
