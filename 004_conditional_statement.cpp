@@ -1,8 +1,8 @@
 /*
-Given a positive integer , do the following:
+ Given a positive integer , do the following:
 
-If (1 <= n <= 9), print the lowercase English word corresponding to the number (e.g., one for 1, two for 2, etc.).
-If (n > 9), print Greater than 9
+ If (1 <= n <= 9), print the lowercase English word corresponding to the number (e.g., one for 1, two for 2, etc.).
+ If (n > 9), print Greater than 9
 */
 
 #include <iostream>
@@ -45,7 +45,7 @@ int main()
             break;
         }
     }
-    else
+    else  // if n is greater than 9 them execute this loop
 
     {
         cout << "Greater than 9";
