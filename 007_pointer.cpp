@@ -16,7 +16,7 @@ void modify(int *p1, int *p2)    // taking 2 pointer integer as parameter of mod
     *p1 = sum;               // containing value of sum in 1st pointer
     *p2 = abs(diff);        // containing absolute value of difference in 2nd pointer
                            // abs() function is used to return the absolute value i.e no signed value
-    /*if we do not want to  use abs() function then we need to use below if condition */
+    /*if we do not want to  use abs() function then we need to use below if condition to print absolute value */
     // if(diff < 0)
     // {
     //     diff = -(diff);
