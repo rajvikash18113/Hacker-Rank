@@ -11,12 +11,12 @@ using namespace std;
 // creating a function named modify with void return type
 void modify(int *p1, int *p2) // taking 2 pointer integer as parameter of modify function
 {
-    int sum = *p1 + *p2;       
+    int sum = *p1 + *p2;
     int diff = *p1 - *p2;
-    *p1 = sum;              // containing value of sum in 1st pointer
-    *p2 = abs(diff);        // containing absolute value of difference in 2nd pointer
-                            // abs() function is used to 
-
+    *p1 = sum;       // containing value of sum in 1st pointer
+    *p2 = abs(diff); // containing absolute value of difference in 2nd pointer
+                     // abs() function is used to return the absolute value i.e no signed value
+    /*if we do not want to  use abs() function then we need to use below if condition */
     // if(diff < 0)
     // {
     //     diff = -(diff);
