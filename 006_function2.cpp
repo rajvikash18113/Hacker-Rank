@@ -32,6 +32,6 @@ int main()
 {
     int a,b,c,d;
     cin >> a >> b >> c >> d;
-    int result = max_of_given_numbers(a,b,c,d);
+    int result = max_of_given_numbers(a,b,c,d);  // Calling Function
     cout << result;
 }
