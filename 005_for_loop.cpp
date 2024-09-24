@@ -29,7 +29,7 @@ int main()
     cin >> a;
     cin >> b; // taking input from the user
 
-    // loop for printing English representation of (1 <= n <= 9) in lowercase.
+     // loop for printing English representation of (1 <= n <= 9) in lowercase.
     // this loop will print english representation of numbers from (a to 9) in case of (a > 9).
     for (int n = a; n >= a && n <= b; n++) // here n is initialized with a
 
@@ -67,7 +67,7 @@ int main()
         }
     }
 
-    // this loop will check numbers which is greater than 9 and smaller than b
+     // this loop will check numbers which is greater than 9 and smaller than b
     // if the number b/w 10 to b is even then it will print even otherwise it will print odd
     for (int n = 10; n > 9 && n <= b; n++)
     {
