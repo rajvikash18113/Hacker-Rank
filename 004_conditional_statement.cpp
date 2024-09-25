@@ -10,8 +10,8 @@ using namespace std;
 
 int main()
 {
-    int n;                // declaring a variable n
-    cin >> n;             // taking input from the user for n
+    int n;                  // declaring a variable n
+    cin >> n;              // taking input from the user for n
     if (n >= 1 && n <= 9) // defining condition
     {
         switch (n)
