@@ -25,7 +25,7 @@ using namespace std;
 
 int main()
 {
-    int a, b; // initalizing 2 variable
+    int a, b;   // initalizing 2 variable
     cin >> a;
     cin >> b; // taking input from the user
 
